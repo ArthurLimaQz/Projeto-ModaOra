@@ -47,7 +47,7 @@
         overflow-x: hidden;
         z-index: 2;
         height: 100dvh;
-        width: 100%;
+        width: 100dvw;
     }
 
     #menu-toggle:checked~.hero-list {
@@ -81,12 +81,16 @@
     }
 
     .box-one {
-        background-image: url(/src/assets/image/topo.jpg);
         width: 100dvw;
-        min-height: 100dvh;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 35%;
+        margin-top: 3.1rem;
+        overflow: hidden;
+    }
+
+    .box-one img {
+        object-fit: contain;
+        width: 200dvw;
+        height: auto;
+        object-position: -6rem;
     }
 
     .box-image {
@@ -156,7 +160,6 @@
         background-image: url(/src/assets//image/bg_detalhe.png);
         background-size: cover;
         width: 100%;
-        min-height: 100dvh;
         margin-top: var(--margin-top-padrao);
         color: #fff;
         padding-bottom: var(--margin-top-padrao);
