@@ -81,7 +81,6 @@
     .box-text p {
         font-size: 1.2rem;
         font-family: Roboto;
-        letter-spacing: .2rem;
         line-height: 1.6;
     }
 
@@ -155,7 +154,6 @@
         font-size: 1.2rem;
         width: 70%;
         text-align: start;
-        letter-spacing: 0.2rem;
         line-height: 1.6;
         font-family: Roboto;
     }
